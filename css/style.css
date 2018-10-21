@@ -51,38 +51,160 @@ a{
 	z-index: 1;
 }
 
-.d-logo-img-wrap{
-	width: 250px;
-	height: 80px;
-	position: relative;
-	float: left;
-	margin-left: 100px;
-}
+@media (max-width: 575px) {
+	.d-logo-img-wrap{
+		width: 250px;
+		height: 80px;
+		position: relative;
+		float: left;
+		margin-left: 30px;
+	}
 
-.d-logo-img{
-	width: 250px;
-	cursor: pointer;
-}
+	.d-logo-img{
+		width: 250px;
+		cursor: pointer;
+	}
 
-.topnav-menu-wrap{
-	float: right;
-	padding-right: 100px;
-	height: 80px;
+	.topnav-menu-wrap{
+		float: right;
+		padding-right: 100px;
+		height: 80px;
+	}
+
+	.li-topnav-menu{
+		float: left;
+		margin-left: 25px;
+		height: 80px;
+		line-height: 80px;
+		font-size: .9em;
+		color: #1e3768;
+		cursor: pointer;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	.d-logo-img-wrap{
+		width: 250px;
+		height: 80px;
+		position: relative;
+		float: left;
+		margin-left: 20px;
+	}
+
+	.d-logo-img{
+		width: 250px;
+		cursor: pointer;
+	}
+
+	.topnav-menu-wrap{
+		float: right;
+		padding-right: 30px;
+		height: 80px;
+	}
+
+	.li-topnav-menu{
+		float: left;
+		margin-left: 15px;
+		height: 80px;
+		line-height: 80px;
+		font-size: .9em;
+		color: #1e3768;
+		cursor: pointer;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.d-logo-img-wrap{
+		width: 250px;
+		height: 80px;
+		position: relative;
+		float: left;
+		margin-left: 20px;
+	}
+
+	.d-logo-img{
+		width: 250px;
+		cursor: pointer;
+	}
+
+	.topnav-menu-wrap{
+		float: right;
+		padding-right: 30px;
+		height: 80px;
+	}
+
+	.li-topnav-menu{
+		float: left;
+		margin-left: 15px;
+		height: 80px;
+		line-height: 80px;
+		font-size: .9em;
+		color: #1e3768;
+		cursor: pointer;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.d-logo-img-wrap{
+		width: 250px;
+		height: 80px;
+		position: relative;
+		float: left;
+		margin-left: 30px;
+	}
+
+	.d-logo-img{
+		width: 250px;
+		cursor: pointer;
+	}
+
+	.topnav-menu-wrap{
+		float: right;
+		padding-right: 70px;
+		height: 80px;
+	}
+
+	.li-topnav-menu{
+		float: left;
+		margin-left: 25px;
+		height: 80px;
+		line-height: 80px;
+		font-size: .9em;
+		color: #1e3768;
+		cursor: pointer;
+	}
+}
+@media (min-width: 1200px) {
+	.d-logo-img-wrap{
+		width: 250px;
+		height: 80px;
+		position: relative;
+		float: left;
+		margin-left: 30px;
+	}
+
+	.d-logo-img{
+		width: 250px;
+		cursor: pointer;
+	}
+
+	.topnav-menu-wrap{
+		float: right;
+		padding-right: 100px;
+		height: 80px;
+	}
+
+	.li-topnav-menu{
+		float: left;
+		margin-left: 25px;
+		height: 80px;
+		line-height: 80px;
+		font-size: .9em;
+		color: #1e3768;
+		cursor: pointer;
+	}
 }
 
 .ul-topnav-menu{
 	list-style: none;
 	overflow: hidden;
-}
-
-.li-topnav-menu{
-	float: left;
-	margin-left: 25px;
-	height: 80px;
-	line-height: 80px;
-	font-size: .9em;
-	color: #1e3768;
-	cursor: pointer;
 }
 
 .li-topnav-menu:hover{
