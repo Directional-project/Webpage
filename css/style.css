@@ -104,18 +104,82 @@ a{
 	background-position-y: bottom;
 }
 
-.p1-title-wrap{
-	width: 100%;
-	height: 200px;
-	/*background-color: red;*/
-}
+@media (max-width: 614px) {
+	.p1-title-wrap{
+		width: 100%;
+		height: 200px;
+		/*background-color: red;*/
+	}
 
-.p1-title{
-	font-size: 2.5em;
-	line-height: 100px;
-	margin-left: 100px;
-	color: #1e3768;
-	/*font-family: 'isk-pota', serif;*/
+	.p1-title{
+		font-size: 1.5em;
+		line-height: 60px;
+		margin-top: 20px;
+		margin-left: 30px;
+		color: #1e3768;
+		/*font-family: 'isk-pota', serif;*/
+	}
+}
+@media (min-width: 615px) and (max-width: 767px) {
+	.p1-title-wrap{
+		width: 100%;
+		height: 200px;
+		/*background-color: red;*/
+	}
+
+	.p1-title{
+		font-size: 1.7em;
+		line-height: 60px;
+		margin-left: 30px;
+		margin-top: 20px;
+		color: #1e3768;
+		/*font-family: 'isk-pota', serif;*/
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.p1-title-wrap{
+		width: 100%;
+		height: 200px;
+		/*background-color: red;*/
+	}
+
+	.p1-title{
+		font-size: 2.0em;
+		line-height: 100px;
+		margin-left: 30px;
+		color: #1e3768;
+		/*font-family: 'isk-pota', serif;*/
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.p1-title-wrap{
+		width: 100%;
+		height: 200px;
+		/*background-color: red;*/
+	}
+
+	.p1-title{
+		font-size: 2.2em;
+		line-height: 100px;
+		margin-left: 30px;
+		color: #1e3768;
+		/*font-family: 'isk-pota', serif;*/
+	}
+}
+@media (min-width: 1200px) {
+	.p1-title-wrap{
+		width: 100%;
+		height: 200px;
+		/*background-color: red;*/
+	}
+
+	.p1-title{
+		font-size: 2.5em;
+		line-height: 100px;
+		margin-left: 30px;
+		color: #1e3768;
+		/*font-family: 'isk-pota', serif;*/
+	}
 }
 
 /*page02*/
