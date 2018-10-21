@@ -9,7 +9,8 @@
 }
 
 *{
-	font-family: 'isk-pota', serif;
+	/*font-family: 'isk-pota', serif;*/
+	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -114,6 +115,7 @@ a{
 	line-height: 100px;
 	margin-left: 100px;
 	color: #1e3768;
+	/*font-family: 'isk-pota', serif;*/
 }
 
 /*page02*/
@@ -248,7 +250,7 @@ a{
 }
 
 .news-company-name{
-	font-family: "Noto Sans", sans-serif;
+	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
 }
 
 .news-issued-date-wrap{
@@ -259,7 +261,7 @@ a{
 }
 
 .news-issued-date{
-	font-family: "Noto Sans", sans-serif;
+	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
 }
 
 .news-img-thum-sm{
@@ -379,7 +381,7 @@ a{
 	text-align: center;
 	background-color:#1e3768;
 	cursor: pointer;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
 }
 
 .li-dw-link:hover{
@@ -624,7 +626,7 @@ footer{
 .copyright-text{
 	font-size: .6em;
 	color: #ffffff;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
 }
 
 .footer-menu-list-wrap{
@@ -637,7 +639,7 @@ footer{
 .li-footer-menu-list{
 	float: left;
 	margin-right: 40px;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
 	font-size: .9em;
 }
 
@@ -653,7 +655,7 @@ footer{
 }
 
 .sns-title{
-	font-family: "Noto Sans", sans-serif;
+	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
 	font-size: .9em;
 }
 
@@ -676,7 +678,7 @@ footer{
 }
 
 .footer-address{
-	font-family: "Noto Sans", sans-serif;
+	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
 }
 
 .footer-terms-wrap{
@@ -689,5 +691,5 @@ footer{
 	font-size: .7em;
 	color: #ffffff;
 	margin-right: 20px;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
 }
