@@ -34,6 +34,20 @@
                     <!--<li class="li-topnav-menu">LANGUAGE</li>-->
                 </ul>
             </div>
+            <div class="hamburger-wrap">
+                <a class="menu-trigger" href="#">
+                    <span> </span>
+                    <span> </span>
+                    <span> </span>
+                </a>
+            </div>
+            <div id="nav">
+                <ul class="ul-nav-menu">
+                    <li class="li-nav-menu li-topnav-menu-1"><a>ABOUT DIRECTIONAL</a></li>
+                    <li class="li-nav-menu li-topnav-menu-2"><a>WHY DIRECTIONAL</a></li>
+                    <li class="li-nav-menu li-topnav-menu-3"><a>INVESTMENT GUIDE</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <div id="container">
@@ -657,7 +671,6 @@
                         <li class="li-footer-terms">Disclaimer</li>
                         <li class="li-footer-terms">Terms of Use</li>
                         <li class="li-footer-terms">Privacy Policy</li>
-
                     </ul>
                 </div>
             </div>
@@ -694,5 +707,19 @@
         $('html, body').animate({
             scrollTop: $("#page-07").offset().top - 80
         }, 500);
+    });
+
+    $(".menu-trigger").click(function() {
+        $(".menu-trigger").toggleClass('active');
+        $("#nav").toggleClass('active');
+    });
+
+    $(document).ready(function() {
+        $(window).resize(function() {
+            var width = $(window).width();
+            if ( width < 768 ) {
+                $('#nav').removeClass('active');
+            }
+        })
     });
 </script>
