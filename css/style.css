@@ -69,7 +69,8 @@ a{
 		float: right;
 		padding-right: 100px;
 		height: 80px;
-		display: none;
+		width:0;
+		padding:0;
 	}
 
 	.li-topnav-menu{
@@ -100,7 +101,8 @@ a{
 		float: right;
 		padding-right: 30px;
 		height: 80px;
-		display: none;
+		width: 0;
+		padding:0;
 	}
 
 	.li-topnav-menu{
