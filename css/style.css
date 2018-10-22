@@ -1034,58 +1034,237 @@ a{
 	width: 100%;
 }
 
-#page-04{
-	width: 100%;
-	height:  600px;
-	position: relative;
-	/*background-color: yellow;*/
-}
+/* PAGE4 */
 
-.p4-title-wrap{
-	width: 100%;
-	height: 100px;
-	overflow: auto;
-}
+@media (max-width: 575px) {
+	#page-04{
+		width: 100%;
+		height:  450px;
+		position: relative;
+		/*background-color: yellow;*/
+	}
 
-.p4-title{
-	font-size: 2em;
-	padding-left: 50px;
-	margin-top: 45px;
-}
+	.p4-title-wrap{
+		width: 100%;
+		height: 100px;
+		overflow: auto;
+	}
 
-.p4-whitepaper-down-wrap{
-	width: 1200px;
-	height: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	/*background-color: red;*/
-	/*margin-top: 50px;*/
-}
+	.p4-title{
+		font-size: 2em;
+		padding-left: 50px;
+		margin-top: 45px;
+	}
 
-.p4-wp-dw-left-wrap{
-	width: 45%;
-	height: 100%;
-	float: left;
-	/*background-color: blue;*/
-}
+	.p4-whitepaper-down-wrap{
+		width: 100%;
+		height: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		/*background-color: red;*/
+		/*margin-top: 50px;*/
+	}
 
-.p4-wp-dw-right-wrap{
-	width: 55%;
-	height: 100%;
-	float: left;
-	position: relative;
-}
+	.p4-wp-dw-left-wrap{
+		width: 100%;
+		height: 100%;
+		float: left;
+		/*background-color: blue;*/
+	}
 
-.p4-wp-img{
-	width: 75%;
-}
+	.p4-wp-dw-right-wrap{
+		width: 0%;
+		height: 100%;
+		float: left;
+		position: relative;
+	}
 
-.p4-text{
-	padding: 0 50px;
-	font-size: 1.1em;
-	line-height: 22px;
-	margin-top: 20px;
-	width: 85%;
+	.p4-wp-img{
+		width: 80%;
+		height: 60%;
+		object-fit:cover;
+	}
+
+	.p4-text{
+		padding: 0 50px;
+		font-size: 1.1em;
+		line-height: 22px;
+		margin-top: 20px;
+		width: 80%;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	#page-04{
+		width: 100%;
+		height:  450px;
+		position: relative;
+		/*background-color: yellow;*/
+	}
+
+	.p4-title-wrap{
+		width: 100%;
+		height: 100px;
+		overflow: auto;
+	}
+
+	.p4-title{
+		font-size: 2em;
+		padding-left: 50px;
+		margin-top: 45px;
+	}
+
+	.p4-whitepaper-down-wrap{
+		width: 100%;
+		height: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		/*background-color: red;*/
+		/*margin-top: 50px;*/
+	}
+
+	.p4-wp-dw-left-wrap{
+		width: 100%;
+		height: 100%;
+		float: left;
+		/*background-color: blue;*/
+	}
+
+	.p4-wp-dw-right-wrap{
+		width: 0%;
+		height: 100%;
+		float: left;
+		position: relative;
+	}
+
+	.p4-wp-img{
+		width: 80%;
+		height: 60%;
+		object-fit:cover;
+	}
+
+	.p4-text{
+		padding: 0 50px;
+		font-size: 1.1em;
+		line-height: 22px;
+		margin-top: 20px;
+		width: 85%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#page-04{
+		width: 100%;
+		height:  600px;
+		position: relative;
+		/*background-color: yellow;*/
+	}
+
+	.p4-title-wrap{
+		width: 100%;
+		height: 100px;
+		overflow: auto;
+	}
+
+	.p4-title{
+		font-size: 2em;
+		padding-left: 50px;
+		margin-top: 45px;
+	}
+
+	.p4-whitepaper-down-wrap{
+		width: 100%;
+		height: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		/*background-color: red;*/
+		/*margin-top: 50px;*/
+	}
+
+	.p4-wp-dw-left-wrap{
+		width: 55%;
+		height: 100%;
+		float: left;
+		/*background-color: blue;*/
+	}
+
+	.p4-wp-dw-right-wrap{
+		width: 45%;
+		height: 100%;
+		float: left;
+		position: relative;
+	}
+
+	.p4-wp-img{
+		width: 80%;
+		height: 60%;
+		object-fit:cover;
+	}
+
+	.p4-text{
+		padding: 0 50px;
+		font-size: 1.1em;
+		line-height: 22px;
+		margin-top: 20px;
+		width: 85%;
+	}
+}
+@media (min-width: 992px) {
+	#page-04{
+		width: 100%;
+		height:  600px;
+		position: relative;
+		/*background-color: yellow;*/
+	}
+
+	.p4-title-wrap{
+		width: 100%;
+		height: 100px;
+		overflow: auto;
+	}
+
+	.p4-title{
+		font-size: 2em;
+		padding-left: 50px;
+		margin-top: 45px;
+	}
+
+	.p4-whitepaper-down-wrap{
+		width: 100%;
+		height: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		/*background-color: red;*/
+		/*margin-top: 50px;*/
+	}
+
+	.p4-wp-dw-left-wrap{
+		width: 45%;
+		height: 100%;
+		float: left;
+		/*background-color: blue;*/
+	}
+
+	.p4-wp-dw-right-wrap{
+		width: 55%;
+		height: 100%;
+		float: left;
+		position: relative;
+	}
+
+	.p4-wp-img{
+		width: 80%;
+		height: 70%;
+		margin-top: auto;
+		margin-bottom: auto;
+		object-fit:cover;
+	}
+
+	.p4-text{
+		padding: 0 50px;
+		font-size: 1.1em;
+		line-height: 22px;
+		margin-top: 20px;
+		width: 85%;
+	}
 }
 
 .wp-down-link-wrap{
@@ -1104,6 +1283,7 @@ a{
 	float: left;
 	font-size: 1.0em;
 	margin-right: 20px;
+	margin-bottom: 10px;
 	color: white;
 	height: 40px;
 	text-align: center;
