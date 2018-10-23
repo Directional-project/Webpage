@@ -521,10 +521,9 @@ a{
 }
 
 /*page02*/
-
 #page-02{
 	width: 100%;
-	height: 600px;
+	height: 400px;
 	position: relative;
 	background-color: #1e3768;
 	display: flex;
