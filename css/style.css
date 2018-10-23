@@ -383,19 +383,19 @@ a{
 
 /*page01*/
 
-#page-01{
-	width: 100%;
-	height: 500px;
-	background-color: #fefefe;
-	position: relative;
-	background-image: url(../assets/main-bg02.jpg);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position-x: right;
-	background-position-y: bottom;
-}
-
 @media (max-width: 661px) {
+	#page-01{
+		width: 100%;
+		height: 300px;
+		background-color: #fefefe;
+		position: relative;
+		background-image: url(../assets/main-bg02.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position-x: right;
+		background-position-y: bottom;
+	}
+
 	.p1-title-wrap{
 		width: 100%;
 		height: 200px;
@@ -405,13 +405,25 @@ a{
 	.p1-title{
 		font-size: 1.5em;
 		line-height: 35px;
-		margin-top: 40px;
+		margin-top: 60px;
 		margin-left: 30px;
 		color: #1e3768;
 		font-family: 'gotham-book';
 	}
 }
 @media (min-width: 662px) and (max-width: 767px) {
+	#page-01{
+		width: 100%;
+		height: 350px;
+		background-color: #fefefe;
+		position: relative;
+		background-image: url(../assets/main-bg02.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position-x: right;
+		background-position-y: bottom;
+	}
+
 	.p1-title-wrap{
 		width: 100%;
 		height: 200px;
@@ -422,12 +434,23 @@ a{
 		font-size: 1.7em;
 		line-height: 100px;
 		margin-left: 30px;
-		margin-top: 0px;
 		color: #1e3768;
 		font-family: 'gotham-book';
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
+	#page-01{
+		width: 100%;
+		height: 400px;
+		background-color: #fefefe;
+		position: relative;
+		background-image: url(../assets/main-bg02.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position-x: right;
+		background-position-y: bottom;
+	}
+
 	.p1-title-wrap{
 		width: 100%;
 		height: 200px;
@@ -443,6 +466,18 @@ a{
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+	#page-01{
+		width: 100%;
+		height: 400px;
+		background-color: #fefefe;
+		position: relative;
+		background-image: url(../assets/main-bg02.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position-x: right;
+		background-position-y: bottom;
+	}
+
 	.p1-title-wrap{
 		width: 100%;
 		height: 200px;
@@ -458,6 +493,18 @@ a{
 	}
 }
 @media (min-width: 1200px) {
+	#page-01{
+		width: 100%;
+		height: 450px;
+		background-color: #fefefe;
+		position: relative;
+		background-image: url(../assets/main-bg02.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position-x: right;
+		background-position-y: bottom;
+	}
+
 	.p1-title-wrap{
 		width: 100%;
 		height: 200px;
