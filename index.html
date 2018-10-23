@@ -5,7 +5,7 @@
     <title>Directional</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Roboto" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="fonts/fonts.min.css" />
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
 
@@ -47,6 +47,7 @@
                     <li class="li-nav-menu li-topnav-menu-1"><a>ABOUT DIRECTIONAL</a></li>
                     <li class="li-nav-menu li-topnav-menu-2"><a>WHY DIRECTIONAL</a></li>
                     <li class="li-nav-menu li-topnav-menu-3"><a>DIRECTIONAL GUIDE</a></li>
+                    <li class="li-nav-menu li-topnav-menu-footer"><a>CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -654,6 +655,12 @@
     $(".li-topnav-menu-7").click(function() {
         $('html, body').animate({
             scrollTop: $("#page-07").offset().top - 80
+        }, 500);
+    });
+
+    $(".li-topnav-menu-footer").click(function() {
+        $('html, body').animate({
+            scrollTop: $("footer").offset().top - 80
         }, 500);
     });
 
