@@ -4,18 +4,18 @@ html, body {
 }
 
 @font-face {
-	font-family: 'isk-pota';
-	src: url('../fonts/iskpota.ttf');
+	font-family: 'gotham-light';
+	src: url('../fonts/Gotham-Light.ttf');
 }
 
 @font-face {
-	font-family: 'isk-pota-b';
-	src: url('../fonts/iskpotab.ttf');
+	font-family: 'gotham-book';
+	src: url('../fonts/Gotham-Book.ttf');
 }
 
 *{
 	/*font-family: 'isk-pota', serif;*/
-	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+	font-family: "gotham-light";
 	margin: 0;
 	padding: 0;
 }
@@ -86,6 +86,7 @@ a{
 		font-size: .9em;
 		color: #1e3768;
 		cursor: pointer;
+		font-family: "gotham-book";
 	}
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -118,6 +119,7 @@ a{
 		font-size: .9em;
 		color: #1e3768;
 		cursor: pointer;
+		font-family: "gotham-book";
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -148,6 +150,7 @@ a{
 		font-size: .9em;
 		color: #1e3768;
 		cursor: pointer;
+		font-family: "gotham-book";
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -178,6 +181,7 @@ a{
 		font-size: .9em;
 		color: #1e3768;
 		cursor: pointer;
+		font-family: "gotham-book";
 	}
 }
 @media (min-width: 1200px) {
@@ -208,6 +212,7 @@ a{
 		font-size: .9em;
 		color: #1e3768;
 		cursor: pointer;
+		font-family: "gotham-book";
 	}
 }
 
@@ -336,7 +341,7 @@ a{
 }
 
 #nav {
-	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+	font-family: "gotham-light";
 	display: none;
 }
 
@@ -367,8 +372,8 @@ a{
 	line-height: 70px;
 	text-indent: 30px;
 	color: #1e3768;
-	font-weight: bold;
 	text-decoration: none;
+	font-family: "gotham-book";
 }
 
 .li-nav-menu a:hover {
@@ -403,7 +408,7 @@ a{
 		margin-top: 20px;
 		margin-left: 30px;
 		color: #1e3768;
-		/*font-family: 'isk-pota', serif;*/
+		font-family: 'gotham-book';
 	}
 }
 @media (min-width: 615px) and (max-width: 767px) {
@@ -419,7 +424,7 @@ a{
 		margin-left: 30px;
 		margin-top: 20px;
 		color: #1e3768;
-		/*font-family: 'isk-pota', serif;*/
+		font-family: 'gotham-book';
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -434,7 +439,7 @@ a{
 		line-height: 100px;
 		margin-left: 30px;
 		color: #1e3768;
-		/*font-family: 'isk-pota', serif;*/
+		font-family: 'gotham-book';
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -449,7 +454,7 @@ a{
 		line-height: 100px;
 		margin-left: 30px;
 		color: #1e3768;
-		/*font-family: 'isk-pota', serif;*/
+		font-family: 'gotham-book';
 	}
 }
 @media (min-width: 1200px) {
@@ -464,7 +469,7 @@ a{
 		line-height: 100px;
 		margin-left: 30px;
 		color: #1e3768;
-		/*font-family: 'isk-pota', serif;*/
+		font-family: 'gotham-book';
 	}
 }
 
@@ -507,16 +512,19 @@ a{
 
 	.p2-title-line-1{
 		font-size: 1.5em;
+		font-family: 'gotham-book';
 	}
 
 	.p2-title-line-2{
 		font-size: 1.5em;
+		font-family: 'gotham-book';
 	}
 
 	.p2-text{
 		width: 100%;
 		font-size: .9em;
 		margin-top: 10px;
+		line-height: 20px;
 	}
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -537,16 +545,19 @@ a{
 
 	.p2-title-line-1{
 		font-size: 2.0em;
+		font-family: 'gotham-book';
 	}
 
 	.p2-title-line-2{
 		font-size: 2.0em;
+		font-family: 'gotham-book';
 	}
 
 	.p2-text{
 		width: 100%;
 		font-size: 1.0em;
 		margin-top: 20px;
+		line-height: 20px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -567,16 +578,19 @@ a{
 
 	.p2-title-line-1{
 		font-size: 2.0em;
+		font-family: 'gotham-book';
 	}
 
 	.p2-title-line-2{
 		font-size: 2.0em;
+		font-family: 'gotham-book';
 	}
 
 	.p2-text{
 		width: 60%;
 		font-size: 1.0em;
 		margin-top: 20px;
+		line-height: 20px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -597,16 +611,19 @@ a{
 
 	.p2-title-line-1{
 		font-size: 2.0em;
+		font-family: 'gotham-book';
 	}
 
 	.p2-title-line-2{
 		font-size: 2.0em;
+		font-family: 'gotham-book';
 	}
 
 	.p2-text{
 		width: 80%;
 		font-size: 1.0em;
 		margin-top: 20px;
+		line-height: 20px;
 	}
 }
 @media (min-width: 1200px) {
@@ -627,20 +644,21 @@ a{
 
 	.p2-title-line-1{
 		font-size: 2.0em;
+		font-family: 'gotham-book';
 	}
 
 	.p2-title-line-2{
 		font-size: 2.0em;
+		font-family: 'gotham-book';
 	}
 
 	.p2-text{
 		width: 80%;
 		font-size: 1.0em;
 		margin-top: 20px;
+		line-height: 20px;
 	}
 }
-
-
 
 .p2-right-wrap{
 	float: left;
@@ -686,6 +704,7 @@ a{
 	margin-top: 45px;
 	margin-left: 50px;
 	color:#1e3768;
+	font-family: 'gotham-book';
 }
 
 @media (max-width: 575px) {
@@ -713,7 +732,7 @@ a{
 	.news-text{
 		margin-top: 20px;
 		font-size: 1.0em;
-		line-height: 15px;
+		line-height: 20px;
 	}
 
 }
@@ -782,7 +801,7 @@ a{
 	.news-text{
 		margin-top: 20px;
 		font-size: 1.0em;
-		line-height: 15px;
+		line-height: 20px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -850,7 +869,7 @@ a{
 	.news-text{
 		margin-top: 20px;
 		font-size: 0.8em;
-		line-height: 15px;
+		line-height: 20px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -918,7 +937,7 @@ a{
 	.news-text{
 		margin-top: 20px;
 		font-size: 1.0em;
-		line-height: 17px;
+		line-height: 20px;
 	}
 }
 @media (min-width: 1200px) {
@@ -986,7 +1005,7 @@ a{
 	.news-text{
 		margin-top: 20px;
 		font-size: 1.0em;
-		line-height: 17px;
+		line-height: 20px;
 	}
 }
 
@@ -998,23 +1017,23 @@ a{
 
 .news-company-name-wrap{
 	float: left;
-	font-size: .8em;
+	font-size: .7em;
 	padding-left: 30px;
 }
 
 .news-company-name{
-	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+	font-family: "gotham-light";
 }
 
 .news-issued-date-wrap{
 	float: right;
-	font-size: .8em;
+	font-size: .7em;
 	padding-right: 30px;
 	color: grey;
 }
 
 .news-issued-date{
-	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+	font-family: "gotham-light";
 }
 
 .news-img-thum-sm{
@@ -1061,6 +1080,7 @@ a{
 		font-size: 2em;
 		padding-left: 50px;
 		margin-top: 45px;
+		font-family: 'gotham-book';
 	}
 
 	.p4-whitepaper-down-wrap{
@@ -1118,6 +1138,7 @@ a{
 		font-size: 2em;
 		padding-left: 50px;
 		margin-top: 45px;
+		font-family: 'gotham-book';
 	}
 
 	.p4-whitepaper-down-wrap{
@@ -1175,6 +1196,7 @@ a{
 		font-size: 2em;
 		padding-left: 50px;
 		margin-top: 45px;
+		font-family: 'gotham-book';
 	}
 
 	.p4-whitepaper-down-wrap{
@@ -1235,6 +1257,7 @@ a{
 		font-size: 2em;
 		padding-left: 50px;
 		margin-top: 45px;
+		font-family: 'gotham-book';
 	}
 
 	.p4-whitepaper-down-wrap{
@@ -1300,7 +1323,7 @@ a{
 	text-align: center;
 	background-color:#1e3768;
 	cursor: pointer;
-	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+	font-family: "gotham-light";
 }
 
 .li-dw-link:hover{
@@ -1428,7 +1451,7 @@ a{
 
 .read-more-btn{
 	font-size: 1.1em;
-	font-family: isk-pota-b, serif;
+	font-family: "gotham-light";
 }
 
 #page-07{
@@ -1508,6 +1531,10 @@ footer{
 	position: relative;
 }
 
+.li-footer-menu-list span {
+		font-family: "gotham-book";
+	}
+
 @media (max-width: 479px) {
 	.footer-left-1-wrap{
 		float: left;
@@ -1566,15 +1593,14 @@ footer{
 		float: left;
 		margin-right: 0px;
 		margin-left: 15px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
 		font-size: 1.0em;
-	}
+	}	
 
 	.li-footer-submenu-list {
 		margin-top: 15px;
 		margin-right: 0px;
 		margin-left: 10px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-light";
 		font-size: .7em;
 	}
 
@@ -1594,7 +1620,7 @@ footer{
 	}
 
 	.sns-title{
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-book";
 		font-size: 1.0em;
 	}
 
@@ -1621,7 +1647,7 @@ footer{
 		margin-right: 5px;
 		margin-left: 10px;
 		margin-top: 5px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-light";
 	}
 }
 @media (min-width: 480px) and (max-width: 599px) {
@@ -1682,7 +1708,7 @@ footer{
 		float: left;
 		margin-right: 0px;
 		margin-left: 15px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-book";
 		font-size: 1.0em;
 	}
 
@@ -1690,7 +1716,7 @@ footer{
 		margin-top: 15px;
 		margin-right: 0px;
 		margin-left: 10px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-light";
 		font-size: .7em;
 	}
 
@@ -1710,7 +1736,7 @@ footer{
 	}
 
 	.sns-title{
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-book";
 		font-size: 1.0em;
 	}
 
@@ -1737,7 +1763,7 @@ footer{
 		margin-right: 5px;
 		margin-left: 10px;
 		margin-top: 5px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-light";
 	}
 }
 @media (min-width: 600px) and (max-width: 823px) {
@@ -1792,7 +1818,7 @@ footer{
 		float: left;
 		margin-right: 0px;
 		margin-left: 15px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-book";
 		font-size: 1.2em;
 	}
 
@@ -1800,7 +1826,7 @@ footer{
 		margin-top: 15px;
 		margin-right: 0px;
 		margin-left: 10px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-light";
 		font-size: .8em;
 	}
 
@@ -1820,7 +1846,7 @@ footer{
 	}
 
 	.sns-title{
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-book";
 		font-size: 1.2em;
 	}
 
@@ -1848,7 +1874,7 @@ footer{
 		margin-left: 10px;
 		margin-top: 10px;
 		margin-bottom : 5px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-light";
 	}
 }
 @media (min-width: 824px) and (max-width: 991px) {
@@ -1902,7 +1928,7 @@ footer{
 		float: left;
 		margin-right: 0px;
 		margin-left: 15px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-book";
 		font-size: 1.2em;
 	}
 
@@ -1910,7 +1936,7 @@ footer{
 		margin-top: 15px;
 		margin-right: 30px;
 		margin-left: 10px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-light";
 		font-size: .8em;
 	}
 
@@ -1930,7 +1956,7 @@ footer{
 	}
 
 	.sns-title{
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-book";
 		font-size: 1.2em;
 	}
 
@@ -1956,7 +1982,7 @@ footer{
 		color: #ffffff;
 		margin-right: 5px;
 		margin-left: 10px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-light";
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -2010,7 +2036,7 @@ footer{
 		float: left;
 		margin-right: 0px;
 		margin-left: 15px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-book";
 		font-size: 1.2em;
 	}
 
@@ -2018,7 +2044,7 @@ footer{
 		margin-top: 15px;
 		margin-right: 30px;
 		margin-left: 10px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-light";
 		font-size: .8em;
 	}
 
@@ -2038,7 +2064,7 @@ footer{
 	}
 
 	.sns-title{
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-book";
 		font-size: 1.2em;
 	}
 
@@ -2064,7 +2090,7 @@ footer{
 		color: #ffffff;
 		margin-right: 5px;
 		margin-left: 10px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-light";
 	}
 }
 @media (min-width: 1200px) {
@@ -2117,7 +2143,7 @@ footer{
 	.li-footer-menu-list{
 		float: left;
 		margin-right: 30px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-book";
 		font-size: 1.2em;
 	}
 
@@ -2125,7 +2151,7 @@ footer{
 		margin-top: 15px;
 		margin-right: 40px;
 		margin-left: 10px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-light";
 		font-size: .8em;
 	}
 
@@ -2145,7 +2171,7 @@ footer{
 	}
 
 	.sns-title{
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-book";
 		font-size: 1.2em;
 	}
 
@@ -2171,7 +2197,7 @@ footer{
 		color: #ffffff;
 		margin-right: 10px;
 		margin-left: 10px;
-		font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+		font-family: "gotham-light";
 	}
 }
 
@@ -2184,5 +2210,5 @@ footer{
 .copyright-text{
 	font-size: .6em;
 	color: #ffffff;
-	font-family: "proxima-nova", "Proxima Nova", "Noto Sans", sans-serif;
+	font-family: "gotham-light";
 }
