@@ -1204,6 +1204,20 @@ a{
 		margin-top: 20px;
 		width: 80%;
 	}
+
+	.li-dw-link{
+		width: 110px;
+		float: left;
+		font-size: 1.0em;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		color: white;
+		height: 40px;
+		text-align: center;
+		background-color:#1e3768;
+		cursor: pointer;
+		font-family: "gotham-light";
+	}
 }
 @media (min-width: 576px) and (max-width: 767px) {
 	#page-04{
@@ -1261,6 +1275,20 @@ a{
 		line-height: 22px;
 		margin-top: 20px;
 		width: 85%;
+	}
+
+	.li-dw-link{
+		width: 120px;
+		float: left;
+		font-size: 1.0em;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		color: white;
+		height: 40px;
+		text-align: center;
+		background-color:#1e3768;
+		cursor: pointer;
+		font-family: "gotham-light";
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1323,6 +1351,20 @@ a{
 		margin-top: 20px;
 		width: 85%;
 	}
+
+	.li-dw-link{
+		width: 130px;
+		float: left;
+		font-size: 1.0em;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		color: white;
+		height: 40px;
+		text-align: center;
+		background-color:#1e3768;
+		cursor: pointer;
+		font-family: "gotham-light";
+	}
 }
 @media (min-width: 992px) {
 	#page-04{
@@ -1384,6 +1426,20 @@ a{
 		margin-top: 20px;
 		width: 85%;
 	}
+
+	.li-dw-link{
+		width: 150px;
+		float: left;
+		font-size: 1.0em;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		color: white;
+		height: 40px;
+		text-align: center;
+		background-color:#1e3768;
+		cursor: pointer;
+		font-family: "gotham-light";
+	}
 }
 
 .wp-down-link-wrap{
@@ -1395,20 +1451,6 @@ a{
 
 .ul-dw-link{
 	list-style: none;
-}
-
-.li-dw-link{
-	width: 150px;
-	float: left;
-	font-size: 1.0em;
-	margin-right: 20px;
-	margin-bottom: 10px;
-	color: white;
-	height: 40px;
-	text-align: center;
-	background-color:#1e3768;
-	cursor: pointer;
-	font-family: "gotham-light";
 }
 
 .li-dw-link:hover{
