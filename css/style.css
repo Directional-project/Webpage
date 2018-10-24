@@ -1893,7 +1893,7 @@ footer{
 		font-family: "gotham-light";
 	}
 }
-@media (min-width: 600px) and (max-width: 823px) {
+@media (min-width: 600px) and (max-width: 849px) {
 	.footer-left-1-wrap{
 		float: left;
 		width: 30%;
@@ -2004,7 +2004,7 @@ footer{
 		font-family: "gotham-light";
 	}
 }
-@media (min-width: 824px) and (max-width: 991px) {
+@media (min-width: 850px) and (max-width: 991px) {
 	.footer-left-1-wrap{
 		float: left;
 		width: 30%;
