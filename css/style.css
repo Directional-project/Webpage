@@ -1663,15 +1663,8 @@ footer{
 	}
 
 @media (max-width: 479px) {
-	.footer-left-1-wrap{
-		float: left;
-		width: 30%;
-		height: 250px;
-		position: relative;
-	}
-
 	.footer-left-2-wrap{
-		float: left;
+		float: right;
 		width: 70%;
 		height: 250px;
 		position: relative;
@@ -1679,14 +1672,15 @@ footer{
 
 	.footer-left-3-wrap{
 		float: right;
-		width: 0%;
+		width: 30%;
 		height: 250px;
 		position: relative;
 	}
 
 	.footer-logo-wrap{
-		margin-left: 30px;
-		margin-top: 30px;
+		position: absolute;
+		left: 30px;
+		top: 30px;
 		width: 170px;
 	}
 
@@ -1765,7 +1759,7 @@ footer{
 
 	.footer-terms-wrap{
 		position: absolute;
-		bottom: 20px;
+		bottom: 35px;
 	}
 
 	.li-footer-terms{
@@ -1778,15 +1772,8 @@ footer{
 	}
 }
 @media (min-width: 480px) and (max-width: 599px) {
-	.footer-left-1-wrap{
-		float: left;
-		width: 30%;
-		height: 250px;
-		position: relative;
-	}
-
 	.footer-left-2-wrap{
-		float: left;
+		float: right;
 		width: 45%;
 		height: 250px;
 		position: relative;
@@ -1800,8 +1787,9 @@ footer{
 	}
 
 	.footer-logo-wrap{
-		margin-left: 30px;
-		margin-top: 30px;
+		position: absolute;
+		left: 30px;
+		top: 30px;
 		width: 170px;
 	}
 
@@ -1894,15 +1882,8 @@ footer{
 	}
 }
 @media (min-width: 600px) and (max-width: 849px) {
-	.footer-left-1-wrap{
-		float: left;
-		width: 30%;
-		height: 250px;
-		position: relative;
-	}
-
 	.footer-left-2-wrap{
-		float: left;
+		float: right;
 		width: 50%;
 		height: 250px;
 		position: relative;
@@ -1916,10 +1897,12 @@ footer{
 	}
 
 	.footer-logo-wrap{
-		margin-left: 30px;
-		margin-top: 30px;
+		position: absolute;
+		left: 30px;
+		top: 30px;
 		width: 170px;
 	}
+
 
 	.footer-logo{
 		width: 100%;
@@ -2005,15 +1988,8 @@ footer{
 	}
 }
 @media (min-width: 850px) and (max-width: 991px) {
-	.footer-left-1-wrap{
-		float: left;
-		width: 30%;
-		height: 250px;
-		position: relative;
-	}
-
 	.footer-left-2-wrap{
-		float: left;
+		float: right;
 		width: 40%;
 		height: 250px;
 		position: relative;
@@ -2027,8 +2003,9 @@ footer{
 	}
 
 	.footer-logo-wrap{
-		margin-left: 30px;
-		margin-top: 30px;
+		position: absolute;
+		left: 30px;
+		top: 30px;
 		width: 200px;
 	}
 
@@ -2113,15 +2090,8 @@ footer{
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-	.footer-left-1-wrap{
-		float: left;
-		width: 25%;
-		height: 250px;
-		position: relative;
-	}
-
 	.footer-left-2-wrap{
-		float: left;
+		float: right;
 		width: 50%;
 		height: 250px;
 		position: relative;
@@ -2135,8 +2105,9 @@ footer{
 	}
 
 	.footer-logo-wrap{
-		margin-left: 30px;
-		margin-top: 30px;
+		position: absolute;
+		left: 30px;
+		top: 30px;
 		width: 200px;
 	}
 
@@ -2221,15 +2192,8 @@ footer{
 	}
 }
 @media (min-width: 1200px) {
-	.footer-left-1-wrap{
-		float: left;
-		width: 25%;
-		height: 250px;
-		position: relative;
-	}
-
 	.footer-left-2-wrap{
-		float: left;
+		float: right;
 		width: 50%;
 		height: 250px;
 		position: relative;
@@ -2243,8 +2207,9 @@ footer{
 	}
 
 	.footer-logo-wrap{
-		margin-left: 30px;
-		margin-top: 30px;
+		position: absolute;
+		left: 30px;
+		top: 30px;
 		width: 200px;
 	}
 
