@@ -13,11 +13,31 @@ html, body {
 	src: url('../fonts/Gotham-Book.ttf');
 }
 
+@font-face {
+	font-family: 'gotham-medium';
+	src: url('../fonts/Gotham-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'gotham-bold';
+	src: url('../fonts/Gotham-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'gotham-ultra';
+	src: url('../fonts/Gotham-Ultra.ttf');
+}
+
 *{
 	/*font-family: 'isk-pota', serif;*/
-	font-family: "gotham-light";
+	font-family: "gotham-light", serif;
 	margin: 0;
 	padding: 0;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
 }
 
 .cc-r{
@@ -47,6 +67,8 @@ a{
 
 /*topnav*/
 
+
+
 .topnav{
 	width: 100%;
 	height: 80px;
@@ -54,166 +76,7 @@ a{
 	position: fixed;
 	top: 0;
 	z-index: 1;
-}
-
-@media (max-width: 575px) {
-	.d-logo-img-wrap{
-		width: 200px;
-		height: 80px;
-		position: relative;
-		float: left;
-		margin-left: 15px;
-	}
-
-	.d-logo-img{
-		width: 200px;
-		cursor: pointer;
-	}
-
-	.topnav-menu-wrap{
-		float: right;
-		padding-right: 100px;
-		height: 80px;
-		width:0;
-		padding:0;
-	}
-
-	.li-topnav-menu{
-		float: left;
-		margin-left: 25px;
-		height: 80px;
-		line-height: 80px;
-		font-size: .9em;
-		color: #1e3768;
-		cursor: pointer;
-		font-family: "gotham-book";
-	}
-}
-@media (min-width: 576px) and (max-width: 809px) {
-	.d-logo-img-wrap{
-		width: 250px;
-		height: 80px;
-		position: relative;
-		float: left;
-		margin-left: 20px;
-	}
-
-	.d-logo-img{
-		width: 250px;
-		cursor: pointer;
-	}
-
-	.topnav-menu-wrap{
-		float: right;
-		padding-right: 30px;
-		height: 80px;
-		width: 0;
-		padding:0;
-	}
-
-	.li-topnav-menu{
-		float: left;
-		margin-left: 15px;
-		height: 80px;
-		line-height: 80px;
-		font-size: .9em;
-		color: #1e3768;
-		cursor: pointer;
-		font-family: "gotham-book";
-	}
-}
-@media (min-width: 810px) and (max-width: 991px) {
-	.d-logo-img-wrap{
-		width: 250px;
-		height: 80px;
-		position: relative;
-		float: left;
-		margin-left: 20px;
-	}
-
-	.d-logo-img{
-		width: 250px;
-		cursor: pointer;
-	}
-
-	.topnav-menu-wrap{
-		float: right;
-		padding-right: 30px;
-		height: 80px;
-	}
-
-	.li-topnav-menu{
-		float: left;
-		margin-left: 15px;
-		height: 80px;
-		line-height: 80px;
-		font-size: .9em;
-		color: #1e3768;
-		cursor: pointer;
-		font-family: "gotham-book";
-	}
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-	.d-logo-img-wrap{
-		width: 250px;
-		height: 80px;
-		position: relative;
-		float: left;
-		margin-left: 30px;
-	}
-
-	.d-logo-img{
-		width: 250px;
-		cursor: pointer;
-	}
-
-	.topnav-menu-wrap{
-		float: right;
-		padding-right: 70px;
-		height: 80px;
-	}
-
-	.li-topnav-menu{
-		float: left;
-		margin-left: 25px;
-		height: 80px;
-		line-height: 80px;
-		font-size: .9em;
-		color: #1e3768;
-		cursor: pointer;
-		font-family: "gotham-book";
-	}
-}
-@media (min-width: 1200px) {
-	.d-logo-img-wrap{
-		width: 250px;
-		height: 80px;
-		position: relative;
-		float: left;
-		margin-left: 30px;
-	}
-
-	.d-logo-img{
-		width: 250px;
-		cursor: pointer;
-	}
-
-	.topnav-menu-wrap{
-		float: right;
-		padding-right: 100px;
-		height: 80px;
-	}
-
-	.li-topnav-menu{
-		float: left;
-		margin-left: 25px;
-		height: 80px;
-		line-height: 80px;
-		font-size: .9em;
-		color: #1e3768;
-		cursor: pointer;
-		font-family: "gotham-book";
-	}
+	box-shadow: -3px -2px 6px 1px #888888;
 }
 
 .ul-topnav-menu{
@@ -224,81 +87,6 @@ a{
 .li-topnav-menu:hover{
 	color: #305d9d;
 	text-decoration: underline;
-}
-
-/* hamburger menu */
-@media (max-width: 575px) {
-	.hamburger-wrap {
-		float: right;
-		height: 80px;
-		padding-right: 20px;
-	}
-
-	.menu-trigger {
-		position: relative;
-		width: 30px;
-		height: 24px;
-		margin-top: 28px;
-	}	
-}
-@media (min-width: 576px) and (max-width: 809px) {
-	.hamburger-wrap {
-		float: right;
-		height: 80px;
-		padding-right: 30px;
-	}
-
-	.menu-trigger {
-		position: relative;
-		width: 35px;
-		height: 24px;
-		margin-top: 28px;
-	}	
-}
-@media (min-width: 810px) and (max-width: 991px) {
-	.hamburger-wrap {
-		float: right;
-		height: 80px;
-		padding-right: 30px;
-		display: none;
-	}
-
-	.menu-trigger {
-		position: relative;
-		width: 40px;
-		height: 24px;
-		margin-top: 28px;
-	}	
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-	.hamburger-wrap {
-		float: right;
-		height: 80px;
-		padding-right: 30px;
-		display: none;
-	}
-
-	.menu-trigger {
-		position: relative;
-		width: 40px;
-		height: 24px;
-		margin-top: 28px;
-	}
-}
-@media (min-width: 1200px) {
-	.hamburger-wrap {
-		float: right;
-		height: 80px;
-		padding-right: 30px;
-		display: none;
-	}
-
-	.menu-trigger {
-		position: relative;
-		width: 40px;
-		height: 24px;
-		margin-top: 28px;
-	}
 }
 
 .menu-trigger, .menu-trigger span {
@@ -321,7 +109,7 @@ a{
 }
 
 .menu-trigger span:nth-of-type(2) {
-	top : 10px;
+	top : 9px;
 }
 
 .menu-trigger span:nth-of-type(3) {
@@ -329,19 +117,18 @@ a{
 }
 
 .menu-trigger.active span:nth-of-type(1) {
-	-webkit-transform : translateY(10px) rotate(-315deg);
-	transform : translateY(10px) rotate(-315deg);
+	-webkit-transform : translateY(9px) rotate(-315deg);
+	transform : translateY(9px) rotate(-315deg);
 }
 .menu-trigger.active span:nth-of-type(2) {
 	opacity : 0;
 }
 .menu-trigger.active span:nth-of-type(3) {
-	-webkit-transform : translateY(-12px) rotate(315deg);
-	transform : translateY(-12px) rotate(315deg);
+	-webkit-transform : translateY(-9px) rotate(315deg);
+	transform : translateY(-9px) rotate(315deg);
 }
 
 #nav {
-	font-family: "gotham-light";
 	display: none;
 }
 
@@ -373,7 +160,9 @@ a{
 	text-indent: 30px;
 	color: #1e3768;
 	text-decoration: none;
-	font-family: "gotham-book";
+	font-family: "gotham-book", serif;
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
 }
 
 .li-nav-menu a:hover {
@@ -381,151 +170,14 @@ a{
 	/* color: #305d9d; */
 }
 
-/*page01*/
 
-@media (max-width: 661px) {
-	#page-01{
-		width: 100%;
-		height: 300px;
-		background-color: #fefefe;
-		position: relative;
-		background-image: url(../assets/main-bg02.jpg);
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position-x: right;
-		background-position-y: bottom;
-	}
-
-	.p1-title-wrap{
-		width: 100%;
-		height: 200px;
-		/*background-color: red;*/
-	}
-
-	.p1-title{
-		font-size: 1.5em;
-		line-height: 35px;
-		margin-top: 60px;
-		margin-left: 30px;
-		color: #1e3768;
-		font-family: 'gotham-book';
-	}
-}
-@media (min-width: 662px) and (max-width: 767px) {
-	#page-01{
-		width: 100%;
-		height: 350px;
-		background-color: #fefefe;
-		position: relative;
-		background-image: url(../assets/main-bg02.jpg);
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position-x: right;
-		background-position-y: bottom;
-	}
-
-	.p1-title-wrap{
-		width: 100%;
-		height: 200px;
-		/*background-color: red;*/
-	}
-
-	.p1-title{
-		font-size: 1.7em;
-		line-height: 100px;
-		margin-left: 30px;
-		color: #1e3768;
-		font-family: 'gotham-book';
-	}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-	#page-01{
-		width: 100%;
-		height: 400px;
-		background-color: #fefefe;
-		position: relative;
-		background-image: url(../assets/main-bg02.jpg);
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position-x: right;
-		background-position-y: bottom;
-	}
-
-	.p1-title-wrap{
-		width: 100%;
-		height: 200px;
-		/*background-color: red;*/
-	}
-
-	.p1-title{
-		font-size: 2.0em;
-		line-height: 100px;
-		margin-left: 30px;
-		color: #1e3768;
-		font-family: 'gotham-book';
-	}
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-	#page-01{
-		width: 100%;
-		height: 400px;
-		background-color: #fefefe;
-		position: relative;
-		background-image: url(../assets/main-bg02.jpg);
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position-x: right;
-		background-position-y: bottom;
-	}
-
-	.p1-title-wrap{
-		width: 100%;
-		height: 200px;
-		/*background-color: red;*/
-	}
-
-	.p1-title{
-		font-size: 2.2em;
-		line-height: 100px;
-		margin-left: 30px;
-		color: #1e3768;
-		font-family: 'gotham-book';
-	}
-}
-@media (min-width: 1200px) {
-	#page-01{
-		width: 100%;
-		height: 450px;
-		background-color: #fefefe;
-		position: relative;
-		background-image: url(../assets/main-bg02.jpg);
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position-x: right;
-		background-position-y: bottom;
-	}
-
-	.p1-title-wrap{
-		width: 100%;
-		height: 200px;
-		/*background-color: red;*/
-	}
-
-	.p1-title{
-		font-size: 2.5em;
-		line-height: 100px;
-		margin-left: 30px;
-		color: #1e3768;
-		font-family: 'gotham-book';
-	}
-}
 
 /*page02*/
 #page-02{
 	width: 100%;
-	height: 400px;
+	height: 700px;
 	position: relative;
-	background-color: #1e3768;
+	/*background-color: #1e3768;*/
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -538,173 +190,10 @@ a{
 	margin-right: auto;
 	background-image: url(../assets/about-img.jpg);
 	background-size: cover;
+	background-position: center;
 }
 
-@media (max-width: 575px) {
-	.p2-left-wrap{
-		width: 100%;
-		/*background-color: red;*/
-		height: 100%;
-		position: relative;
-		float: left;
-	}
 
-	.p2-title-text-wrap{
-		/*padding-left: 100px;*/
-		/*height: 200px;*/
-		width: calc(100% - 100px);
-		color:#ffffff;
-	}
-
-	.p2-title-line-1{
-		font-size: 1.5em;
-		font-family: 'gotham-book';
-	}
-
-	.p2-title-line-2{
-		font-size: 1.5em;
-		font-family: 'gotham-book';
-	}
-
-	.p2-text{
-		width: 100%;
-		font-size: .9em;
-		margin-top: 10px;
-		line-height: 20px;
-	}
-}
-@media (min-width: 576px) and (max-width: 767px) {
-	.p2-left-wrap{
-		width: 100%;
-		/*background-color: red;*/
-		height: 100%;
-		position: relative;
-		float: left;
-	}
-
-	.p2-title-text-wrap{
-		/*padding-left: 100px;*/
-		/*height: 200px;*/
-		width: calc(100% - 100px);
-		color:#ffffff;
-	}
-
-	.p2-title-line-1{
-		font-size: 2.0em;
-		font-family: 'gotham-book';
-	}
-
-	.p2-title-line-2{
-		font-size: 2.0em;
-		font-family: 'gotham-book';
-	}
-
-	.p2-text{
-		width: 100%;
-		font-size: 1.0em;
-		margin-top: 20px;
-		line-height: 20px;
-	}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-	.p2-left-wrap{
-		width: 100%;
-		/*background-color: red;*/
-		height: 100%;
-		position: relative;
-		float: left;
-	}
-
-	.p2-title-text-wrap{
-		margin-left: 0px;
-		/*height: 200px;*/
-		width: calc(100% - 100px);
-		color:#ffffff;
-	}
-
-	.p2-title-line-1{
-		font-size: 2.0em;
-		font-family: 'gotham-book';
-	}
-
-	.p2-title-line-2{
-		font-size: 2.0em;
-		font-family: 'gotham-book';
-	}
-
-	.p2-text{
-		width: 60%;
-		font-size: 1.0em;
-		margin-top: 20px;
-		line-height: 20px;
-	}
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-	.p2-left-wrap{
-		width: 65%;
-		/*background-color: red;*/
-		height: 100%;
-		position: relative;
-		float: left;
-	}
-
-	.p2-title-text-wrap{
-		margin-left: 0px;
-		/*height: 200px;*/
-		width: calc(100% - 100px);
-		color:#ffffff;
-	}
-
-	.p2-title-line-1{
-		font-size: 2.0em;
-		font-family: 'gotham-book';
-	}
-
-	.p2-title-line-2{
-		font-size: 2.0em;
-		font-family: 'gotham-book';
-	}
-
-	.p2-text{
-		width: 80%;
-		font-size: 1.0em;
-		margin-top: 20px;
-		line-height: 20px;
-	}
-}
-@media (min-width: 1200px) {
-	.p2-left-wrap{
-	width: 50%;
-	/*background-color: red;*/
-	height: 100%;
-	position: relative;
-	float: left;
-	}
-
-	.p2-title-text-wrap{
-		margin-left: 0px;
-		/*height: 200px;*/
-		width: calc(100% - 100px);
-		color:#ffffff;
-	}
-
-	.p2-title-line-1{
-		font-size: 2.0em;
-		font-family: 'gotham-book';
-	}
-
-	.p2-title-line-2{
-		font-size: 2.0em;
-		font-family: 'gotham-book';
-	}
-
-	.p2-text{
-		width: 80%;
-		font-size: 1.0em;
-		margin-top: 20px;
-		line-height: 20px;
-	}
-}
 
 .p2-right-wrap{
 	float: left;
@@ -739,359 +228,8 @@ a{
 
 .p3-title-wrap{
 	width: 100%;
-	height: 100px;
+	height: 200px;
 	overflow: auto;
-}
-
-@media (max-width: 575px) {
-	.p3-news-list-wrap {
-		width: calc(100% - 30px);
-		margin: 0 15px;
-		margin-top: 5px;
-		display: grid;
-		grid-template-columns: repeat(1);
-		grid-gap: 15px;
-		grid-auto-rows: minamx(400px, auto);
-	}
-
-	.p3-news-list-wrap a {
-		width: 100%;
-	}
-
-	.news-thum-sm-wrap{
-		width: 100%;
-		height: 400px;
-		background-color: white;
-		float: left;
-	}
-
-	.news-text{
-		margin-top: 20px;
-		font-size: 1.0em;
-		line-height: 20px;
-	}
-
-	.p3-title{
-		font-size: 1.5em;
-		/*padding-left: 100px;*/
-		/*text-align: center;*/
-		margin-top: 45px;
-		margin-left: 50px;
-		color:#1e3768;
-		font-family: 'gotham-book';
-	}
-}
-@media (min-width: 576px) and (max-width: 767px) {
-	.p3-news-list-wrap {
-		width: calc(100% - 30px);
-		margin: 0 15px;
-		margin-top: 5px;
-		display: grid;
-		grid-template-columns: repeat(2);
-		grid-gap: 15px;
-		grid-auto-rows: minamx(400px, auto);
-	}
-
-	.p3-news-list-wrap a {
-		width: 100%;
-	}
-
-	.article-one {
-		grid-column:1;
-		grid-row:1;
-	}
-
-	.article-two {
-		grid-column:2;
-		grid-row:1;
-	}
-
-	.article-three {
-		grid-column:1;
-		grid-row:2;
-	}
-
-	.article-four {
-		grid-column:2;
-		grid-row:2;
-	}
-
-	.article-five {
-		grid-column:1;
-		grid-row:3;
-	}
-
-	.article-six {
-		grid-column:2;
-		grid-row:3;
-	}
-
-	.article-seven {
-		grid-column:1;
-		grid-row:4;
-	}
-
-	.article-eight {
-		grid-column:2;
-		grid-row:4;
-	}
-
-	.news-thum-sm-wrap{
-		width: 100%;
-		height: 420px;
-		background-color: white;
-		float: left;
-	}
-
-	.news-text{
-		margin-top: 20px;
-		font-size: 1.0em;
-		line-height: 20px;
-	}
-
-	.p3-title{
-		font-size: 2.0em;
-		/*padding-left: 100px;*/
-		/*text-align: center;*/
-		margin-top: 45px;
-		margin-left: 50px;
-		color:#1e3768;
-		font-family: 'gotham-book';
-	}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-	.p3-news-list-wrap {
-		width: calc(100% - 30px);
-		margin: 0 15px;
-		margin-top: 5px;
-		display: grid;
-		grid-template-columns: repeat(3);
-		grid-gap: 15px;
-		grid-auto-rows: minamx(400px, auto);
-	}
-
-	.p3-news-list-wrap a {
-		width: 100%;
-	}
-
-	.article-one {
-		grid-column:1;
-		grid-row:1;
-	}
-
-	.article-two {
-		grid-column:2;
-		grid-row:1;
-	}
-
-	.article-three {
-		grid-column:3;
-		grid-row:1;
-	}
-
-	.article-four {
-		grid-column:1;
-		grid-row:2;
-	}
-
-	.article-five {
-		grid-column:2;
-		grid-row:2;
-	}
-
-	.article-six {
-		grid-column:3;
-		grid-row:2;
-	}
-
-	.article-seven {
-		grid-column:1;
-		grid-row:3;
-	}
-
-	.article-eight {
-		grid-column:2;
-		grid-row:3;
-	}
-
-	.news-thum-sm-wrap{
-		width: 100%;
-		height: 420px;
-		background-color: white;
-		float: left;
-	}
-
-	.news-text{
-		margin-top: 20px;
-		font-size: 0.8em;
-		line-height: 20px;
-	}
-
-	.p3-title{
-		font-size: 2.0em;
-		/*padding-left: 100px;*/
-		/*text-align: center;*/
-		margin-top: 45px;
-		margin-left: 50px;
-		color:#1e3768;
-		font-family: 'gotham-book';
-	}
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-	.p3-news-list-wrap {
-		width: calc(100% - 30px);
-		margin: 0 15px;
-		margin-top: 5px;
-		display: grid;
-		grid-template-columns: repeat(3);
-		grid-gap: 15px;
-		grid-auto-rows: minamx(400px, auto);
-	}
-
-	.p3-news-list-wrap a {
-		width: 100%;
-	}
-
-	.article-one {
-		grid-column:1;
-		grid-row:1;
-	}
-
-	.article-two {
-		grid-column:2;
-		grid-row:1;
-	}
-
-	.article-three {
-		grid-column:3;
-		grid-row:1;
-	}
-
-	.article-four {
-		grid-column:1;
-		grid-row:2;
-	}
-
-	.article-five {
-		grid-column:2;
-		grid-row:2;
-	}
-
-	.article-six {
-		grid-column:3;
-		grid-row:2;
-	}
-
-	.article-seven {
-		grid-column:1;
-		grid-row:3;
-	}
-
-	.article-eight {
-		grid-column:2;
-		grid-row:3;
-	}
-
-	.news-thum-sm-wrap{
-		width: 100%;
-		height: 400px;
-		background-color: white;
-		float: left;
-	}
-
-	.news-text{
-		margin-top: 20px;
-		font-size: 1.0em;
-		line-height: 20px;
-	}
-
-	.p3-title{
-		font-size: 2.0em;
-		/*padding-left: 100px;*/
-		/*text-align: center;*/
-		margin-top: 45px;
-		margin-left: 50px;
-		color:#1e3768;
-		font-family: 'gotham-book';
-	}
-}
-@media (min-width: 1200px) {
-	.p3-news-list-wrap {
-		width: calc(100% - 30px);
-		margin: 0 15px;
-		margin-top: 5px;
-		display: grid;
-		grid-template-columns: repeat(4);
-		grid-gap: 15px;
-		grid-auto-rows: minamx(400px, auto);
-	}
-
-	.p3-news-list-wrap a {
-		width: 100%;
-	}
-
-	.article-one {
-		grid-column:1;
-		grid-row:1;
-	}
-
-	.article-two {
-		grid-column:2;
-		grid-row:1;
-	}
-
-	.article-three {
-		grid-column:3;
-		grid-row:1;
-	}
-
-	.article-four {
-		grid-column:4;
-		grid-row:1;
-	}
-
-	.article-five {
-		grid-column:1;
-		grid-row:2;
-	}
-
-	.article-six {
-		grid-column:2;
-		grid-row:2;
-	}
-
-	.article-seven {
-		grid-column:3;
-		grid-row:2;
-	}
-
-	.article-eight {
-		grid-column:4;
-		grid-row:2;
-	}
-
-	.news-thum-sm-wrap{
-		width: 100%;
-		height: 420px;
-		background-color: white;
-		float: left;
-	}
-
-	.news-text{
-		margin-top: 20px;
-		font-size: 1.0em;
-		line-height: 20px;
-	}
-
-	.p3-title{
-		font-size: 2.0em;
-		/*padding-left: 100px;*/
-		/*text-align: center;*/
-		margin-top: 45px;
-		margin-left: 50px;
-		color:#1e3768;
-		font-family: 'gotham-book';
-	}
 }
 
 .news-title-wrap{
@@ -1107,7 +245,7 @@ a{
 }
 
 .news-company-name{
-	font-family: "gotham-light";
+	font-family: "gotham-medium", serif;
 }
 
 .news-issued-date-wrap{
@@ -1118,7 +256,7 @@ a{
 }
 
 .news-issued-date{
-	font-family: "gotham-light";
+	font-family: "gotham-book", serif;
 }
 
 .news-img-thum-sm{
@@ -1145,305 +283,8 @@ a{
 	width: 100%;
 }
 
-/* PAGE4 */
-
-@media (max-width: 575px) {
-	#page-04{
-		width: 100%;
-		height:  400px;
-		position: relative;
-		/*background-color: yellow;*/
-	}
-
-	.p4-title-wrap{
-		width: 100%;
-		height: 100px;
-		overflow: auto;
-	}
-
-	.p4-title{
-		font-size: 1.5em;
-		padding-left: 50px;
-		margin-top: 45px;
-		font-family: 'gotham-book';
-	}
-
-	.p4-whitepaper-down-wrap{
-		width: 100%;
-		height: 400px;
-		margin-left: auto;
-		margin-right: auto;
-		/*background-color: red;*/
-		/*margin-top: 50px;*/
-	}
-
-	.p4-wp-dw-left-wrap{
-		width: 100%;
-		height: 100%;
-		float: left;
-		/*background-color: blue;*/
-	}
-
-	.p4-wp-dw-right-wrap{
-		width: 0%;
-		height: 100%;
-		float: left;
-		position: relative;
-	}
-
-	.p4-wp-img{
-		width: 80%;
-		height: 60%;
-		object-fit:cover;
-	}
-
-	.p4-text{
-		padding: 0 50px;
-		font-size: 1.1em;
-		line-height: 22px;
-		margin-top: 20px;
-		width: 80%;
-	}
-
-	.li-dw-link{
-		width: 110px;
-		float: left;
-		font-size: 1.0em;
-		margin-right: 20px;
-		margin-bottom: 10px;
-		color: white;
-		height: 40px;
-		text-align: center;
-		background-color:#1e3768;
-		cursor: pointer;
-		font-family: "gotham-light";
-	}
-}
-@media (min-width: 576px) and (max-width: 767px) {
-	#page-04{
-		width: 100%;
-		height:  350px;
-		position: relative;
-		/*background-color: yellow;*/
-	}
-
-	.p4-title-wrap{
-		width: 100%;
-		height: 100px;
-		overflow: auto;
-	}
-
-	.p4-title{
-		font-size: 2em;
-		padding-left: 50px;
-		margin-top: 45px;
-		font-family: 'gotham-book';
-	}
-
-	.p4-whitepaper-down-wrap{
-		width: 100%;
-		height: 350px;
-		margin-left: auto;
-		margin-right: auto;
-		/*background-color: red;*/
-		/*margin-top: 50px;*/
-	}
-
-	.p4-wp-dw-left-wrap{
-		width: 100%;
-		height: 100%;
-		float: left;
-		/*background-color: blue;*/
-	}
-
-	.p4-wp-dw-right-wrap{
-		width: 0%;
-		height: 100%;
-		float: left;
-		position: relative;
-	}
-
-	.p4-wp-img{
-		width: 80%;
-		height: 60%;
-		object-fit:cover;
-	}
-
-	.p4-text{
-		padding: 0 50px;
-		font-size: 1.1em;
-		line-height: 22px;
-		margin-top: 20px;
-		width: 85%;
-	}
-
-	.li-dw-link{
-		width: 120px;
-		float: left;
-		font-size: 1.0em;
-		margin-right: 20px;
-		margin-bottom: 10px;
-		color: white;
-		height: 40px;
-		text-align: center;
-		background-color:#1e3768;
-		cursor: pointer;
-		font-family: "gotham-light";
-	}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-	#page-04{
-		width: 100%;
-		height:  400px;
-		position: relative;
-		/*background-color: yellow;*/
-	}
-
-	.p4-title-wrap{
-		width: 100%;
-		height: 100px;
-		overflow: auto;
-	}
-
-	.p4-title{
-		font-size: 2em;
-		padding-left: 50px;
-		margin-top: 45px;
-		font-family: 'gotham-book';
-	}
-
-	.p4-whitepaper-down-wrap{
-		width: 100%;
-		height: 400px;
-		margin-left: auto;
-		margin-right: auto;
-		/*background-color: red;*/
-		/*margin-top: 50px;*/
-	}
-
-	.p4-wp-dw-left-wrap{
-		width: 55%;
-		height: 100%;
-		float: left;
-		/*background-color: blue;*/
-	}
-
-	.p4-wp-dw-right-wrap{
-		width: 45%;
-		height: 100%;
-		float: left;
-		position: relative;
-	}
-
-	.p4-wp-img{
-		display:block;
-		margin:0 auto;
-		margin-top: 45px;
-		width: 80%;
-		height: 300px;
-		object-fit:cover;
-	}
-
-	.p4-text{
-		padding: 0 50px;
-		font-size: 1.1em;
-		line-height: 22px;
-		margin-top: 20px;
-		width: 85%;
-	}
-
-	.li-dw-link{
-		width: 130px;
-		float: left;
-		font-size: 1.0em;
-		margin-right: 20px;
-		margin-bottom: 10px;
-		color: white;
-		height: 40px;
-		text-align: center;
-		background-color:#1e3768;
-		cursor: pointer;
-		font-family: "gotham-light";
-	}
-}
-@media (min-width: 992px) {
-	#page-04{
-		width: 100%;
-		height:  400px;
-		position: relative;
-		/*background-color: yellow;*/
-	}
-
-	.p4-title-wrap{
-		width: 100%;
-		height: 100px;
-		overflow: auto;
-	}
-
-	.p4-title{
-		font-size: 2em;
-		padding-left: 50px;
-		margin-top: 45px;
-		font-family: 'gotham-book';
-	}
-
-	.p4-whitepaper-down-wrap{
-		width: 100%;
-		height: 400px;
-		margin-left: auto;
-		margin-right: auto;
-		/*background-color: red;*/
-		/*margin-top: 50px;*/
-	}
-
-	.p4-wp-dw-left-wrap{
-		width: 45%;
-		height: 100%;
-		float: left;
-		/*background-color: blue;*/
-	}
-
-	.p4-wp-dw-right-wrap{
-		width: 55%;
-		height: 100%;
-		float: left;
-		position: relative;
-	}
-
-	.p4-wp-img{
-		display:block;
-		margin:0 auto;
-		margin-top: 45px;
-		width: 80%;
-		height: 300px;
-		object-fit:cover;
-	}
-
-	.p4-text{
-		padding: 0 50px;
-		font-size: 1.1em;
-		line-height: 22px;
-		margin-top: 20px;
-		width: 85%;
-	}
-
-	.li-dw-link{
-		width: 150px;
-		float: left;
-		font-size: 1.0em;
-		margin-right: 20px;
-		margin-bottom: 10px;
-		color: white;
-		height: 40px;
-		text-align: center;
-		background-color:#1e3768;
-		cursor: pointer;
-		font-family: "gotham-light";
-	}
-}
-
 .wp-down-link-wrap{
-	margin-left: 50px;
+	margin-left: 100px;
 	height: 40px;
 	line-height: 40px;
 	margin-top: 40px;
@@ -1679,7 +520,7 @@ footer{
 
 	.footer-logo-wrap{
 		position: absolute;
-		left: 30px;
+		left: 10px;
 		top: 30px;
 		width: 170px;
 	}
@@ -1714,7 +555,7 @@ footer{
 		float: left;
 		margin-right: 0px;
 		margin-left: 15px;
-		font-size: 1.0em;
+		font-size: .9em;
 	}	
 
 	.li-footer-submenu-list {
@@ -1746,7 +587,7 @@ footer{
 	}
 
 	.sns-logo-list-wrap {
-		margin-left: 10px;
+		/*margin-left: 10px;*/
 	}
 
 	.li-sns-logo{
@@ -1766,7 +607,7 @@ footer{
 		font-size: .7em;
 		color: #ffffff;
 		margin-right: 5px;
-		margin-left: 10px;
+		/*margin-left: 10px;*/
 		margin-top: 5px;
 		font-family: "gotham-light";
 	}
@@ -2296,7 +1137,7 @@ footer{
 .copyright-text-wrap{
 	position: absolute;
 	bottom: 20px;
-	left: 30px;
+	left: 10px;
 }
 
 .copyright-text{
