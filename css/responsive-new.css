@@ -1,0 +1,67 @@
+@media (max-width: 575px) {
+	.d-logo-img-wrap{
+		width: 200px;
+		height: 80px;
+		position: relative;
+		float: left;
+		margin-left: 15px;
+	}
+
+	.d-logo-img{
+		width: 200px;
+		cursor: pointer;
+	}
+
+	.topnav-menu-wrap{
+		float: right;
+		padding-right: 100px;
+		height: 80px;
+		width:0;
+		padding:0;
+	}
+
+	.li-topnav-menu{
+		float: left;
+		margin-left: 25px;
+		height: 80px;
+		line-height: 80px;
+		font-size: .9em;
+		color: #1e3768;
+		cursor: pointer;
+		font-family: "gotham-book", serif;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	.d-logo-img-wrap{
+		width: 250px;
+		height: 80px;
+		position: relative;
+		float: left;
+		margin-left: 30px;
+	}
+
+	.d-logo-img{
+		width: 250px;
+		cursor: pointer;
+	}
+
+	.topnav-menu-wrap{
+		float: right;
+		padding-right: 100px;
+		height: 80px;
+	}
+
+	.li-topnav-menu{
+		float: left;
+		margin-left: 25px;
+		height: 80px;
+		line-height: 80px;
+		font-size: .9em;
+		color: #1e3768;
+		cursor: pointer;
+		font-family: "gotham-medium", serif;
+	}
+
+}
