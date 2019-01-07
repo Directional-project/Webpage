@@ -28,12 +28,18 @@ html, body {
 	src: url('../fonts/Gotham-Ultra.ttf');
 }
 
+@font-face {
+	font-family: 'platin';
+	src: url('../fonts/platin.ttf');
+}
+
 *{
 	/*font-family: 'isk-pota', serif;*/
 	font-family: "gotham-light", sans-serif;
 	margin: 0;
 	padding: 0;
 }
+
 
 /*common CSS*/
 
@@ -69,13 +75,19 @@ a{
 
 /*topnav*/
 
+#header{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+
+}
+
 .topnav{
 	width: 100%;
 	height: 80px;
 	background-color: rgba(255, 255, 255, 0.85);
-	position: fixed;
-	top: 0;
-	z-index: 1;
 	box-shadow: -3px -2px 6px 1px #888888;
 }
 
@@ -234,16 +246,26 @@ a{
 	opacity: 1;
 }
 
+.p1-container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
 .p1-title-wrap{
 	width: 100%;
+	top:55%;
 	/*height: 200px;*/
 	/*background-color: red;*/
+	z-index: 2;
+	opacity: 0;
 }
 
 .p1-title{
-	/*font-size: 2.5em;*/
-	font-size: 4em;
-	line-height: 80px;
+	/* font-size: 2.5em; */
+	font-size: 5em;
+	line-height: 125px;
 	/* margin-left: 100px; */
 	color: white;
 	font-family: 'gotham-medium', sans-serif;
@@ -251,19 +273,64 @@ a{
 }
 
 .p1-text-line1{
-	font-family: "gotham-medium", sans-serif;
+	font-family: "platin", sans-serif;
 	font-size: 1.65em;
 }
 
 .p1-text-line2{
-	font-family: "gotham-medium", sans-serif;
+	font-family: "platin", sans-serif;
 	font-size: 1.1em;
+	opacity: 0;
 }
 
+.over-video-wrap{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(53, 77, 124, 0.2);
+	position: absolute;
+	z-index: 1;
+}
+
+#video-background{
+	max-height: 100000px;
+	height: auto;
+	left: 50%;
+	min-height: 101%;
+	min-width: 100%;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	z-index: 1;
+	transform: translate(-50%,-50%);
+}
+
+.btn-skip-main-page-wrap{
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	/*background-color: red;*/
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	border: 2px solid white;
+	text-align: center;
+	line-height: 56px;
+	color: white;
+	font-size: 1.7em;
+	z-index: 2;
+}
+
+.btn-skip-main-page-wrap:hover{
+	background-color: rgba(255, 255, 255, 0.56);
+	z-index: 2;
+}
 /*page02*/
 #page-02{
 	width: 100%;
-	height: 700px;
+	height: 900px;
 	position: relative;
 	/*background-color: #1e3768;*/
 	display: flex;
@@ -276,7 +343,7 @@ a{
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url(../assets/about-img.jpg);
+	/*background-image: url(../assets/about-img.jpg);*/
 	background-size: cover;
 	background-position: center;
 }
@@ -300,42 +367,73 @@ a{
 }
 
 .p2-left-wrap{
-	width: 50%;
+	width: 800px;
 	/*background-color: red;*/
 	height: 100%;
 	position: relative;
-	float: left;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .p2-title-text-wrap{
 	margin-left: 0;
 	/*height: 200px;*/
-	width: 90%;
-	color: #ffffff;
-	background-color: rgba(62, 62, 62, 0.63);
+	width: 70%;
+	/*color: #ffffff;*/
+	/*background-color: rgba(62, 62, 62, 0.63);*/
 	/*padding: 15px;*/
+	/*border: 4px solid black;*/
 }
 
 .p2-title-text{
-	padding: 30px 50px 30px 50px;
+	/*padding: 40px 50px 40px 50px;*/
+	/*text-align: center;*/
+	overflow: auto;
+	margin-top: 20px;
 }
 
 .p2-title-line-1{
-	font-size: 3.0em;
-	font-family: 'gotham-medium', sans-serif;
+	font-size: 2.8em;
+	font-family: 'platin', serif;
+	padding-top: 15px;
 }
 
 .p2-title-line-2{
-	font-size: 3em;
-	font-family: 'gotham-medium', sans-serif;
+	font-size: 1.5em;
+	font-family: 'platin', serif;
 }
 
 .p2-text{
 	/*width: 80%;*/
-	font-size: 1.2em;
-	margin-top: 20px;
+	font-size: 1.1em;
+	/*margin-top: 20px;*/
 	line-height: 30px;
 	font-family: 'gotham-book', sans-serif;
+}
+
+.img-p2-wrap{
+	width: 100%;
+}
+
+.img-p2{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.p2-title-left-text{
+	float: left;
+	width: 23%;
+	/*background-color: red;*/
+	text-align: right;
+	border-top: 2px solid;
+}
+
+.p2-title-right-text{
+	float: right;
+	width: 72%;
+	/*background-color: red;*/
 }
 
 /*page03*/
@@ -736,6 +834,23 @@ a{
 	width: 100%;
 }
 
+.p8-img{
+	position: absolute;
+	height: 200%;
+	width: 100%;
+	z-index: -1;
+	background-image: url("../assets/about-img-bw.jpg");
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.p8-img-container{
+	position: relative;
+	height: 500px;
+}
+
 .p8-container{
 	width: 100%;
 	height: 700px;
@@ -1047,4 +1162,18 @@ footer{
 
 .platform-link-btn:hover{
 	background-color: #2a5b98;
+}
+
+/*effect CSS*/
+
+
+.text-move-up{
+	top: 52%;
+	opacity: 1;
+	transition: all 1.5s ease-in-out;
+}
+
+.text-show-up{
+	opacity: 1;
+	transition: all 3s ease-in-out;
 }

@@ -77,29 +77,45 @@
     <div id="container">
         <div id="page-01">
             <div class="p1-container">
-                <video autoplay loop id="video-background" muted plays-inline class="cc-a">
-                    <source src="assets/sample.mp4" type="video/mp4">
+                <div class="over-video-wrap"></div>
+                <video autoplay loop id="video-background" muted class="cc-a">
+                    <source src="assets/main-bg-FHD.mp4" type="video/mp4">
                 </video>
+
                 <div class="p1-title-wrap cc-a">
                     <div class="p1-title">
                         <div class="p1-text-line1">Providing liquidity</div><div class="p1-text-line2">for your directional trading</div>
                     </div>
+                </div>
+
+                <div class="btn-skip-main-page-wrap">
+                    <i class="fas fa-chevron-down"></i>
                 </div>
             </div>
         </div>
         <div id="page-02">
             <div class="p2-container">
                 <div class="p2-left-wrap">
+
                     <div class="p2-title-text-wrap cc-a">
+
+                        <div class="img-p2-wrap">
+                            <img class="img-p2" src="assets/about-img.jpg" alt="">
+                        </div>
+
                         <div class="p2-title-text">
-                            <div class="p2-title-line-1">
-                                About
+                            <div class="p2-title-left-text">
+                                <div class="p2-title-line-1">
+                                    About
+                                </div>
+                                <div class="p2-title-line-2">
+                                    Directional
+                                </div>
                             </div>
-                            <div class="p2-title-line-2">
-                                Directional
-                            </div>
-                            <div class="p2-text">
-                                By creating a blockchain-based decentralized exchange platform, Directional aims at replacing third-party centralization so that information and capital concentrated to select few can be distributed to the public.
+                            <div class="p2-title-right-text">
+                                <div class="p2-text">
+                                    By creating a blockchain-based decentralized exchange platform, Directional aims at replacing third-party centralization so that information and capital concentrated to select few can be distributed to the public.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -589,6 +605,10 @@
         </div>
         -->
         <div id="page-08">
+            <div class="p8-img-container">
+                <div class="p8-img"></div>
+                <!--<img class="p8-img" src="assets/about-img-bw.jpg" alt="">-->
+            </div>
             <div class="p8-container">
                 <div class="p3-title-wrap">
                     <div class="p3-title">
@@ -744,7 +764,32 @@
         $("#nav").toggleClass('active');
     });
 
+    var parallaxElements = $('.p8-img'),
+        parallaxQuantity = parallaxElements.length;
 
+    $(window).on('scroll', function () {
+
+        window.requestAnimationFrame(function () {
+
+            for (var i = 0; i < parallaxQuantity; i++) {
+                var currentElement = parallaxElements.eq(i);
+                var scrolled = $(window).scrollTop();
+
+                currentElement.css({
+                    'transform': 'translate3d(0,' + scrolled * -0.1 + 'px, 0)'
+                });
+            }
+        });
+
+    });
+
+    $(document).ready(function() {
+        $(".p1-title-wrap").addClass('text-show-up');
+    });
+
+    $(document).ready(function() {
+        $(".p1-text-line2").addClass('text-show-up');
+    });
 
     $(document).ready(function() {
 
@@ -760,21 +805,21 @@
         $(".lan-change-btn").click(function(){
             $(".lan").fadeOut(function () {
                 $(this).text(($(".lan").text() === 'Korean') ? 'English' : 'Korean').fadeIn();
-            })
+            });
 
             $('[lang="kr"]').toggle();
             $('[lang="en"]').toggle();
         });
 
-        $('#contactmail').submit(function(event) {
-            $.ajax({
-                type: 'POST',
-                url: 'email-php.php',
-                data: $('#contactmail').serialize(),
-                success: function() {
-                    $('.success').fadeIn(1000)
-                }
-            })
-        })
+        // $('#contactmail').submit(function(event) {
+        //     $.ajax({
+        //         type: 'POST',
+        //         url: 'email-php.php',
+        //         data: $('#contactmail').serialize(),
+        //         success: function() {
+        //             $('.success').fadeIn(1000)
+        //         }
+        //     })
+        // })
     });
 </script>
